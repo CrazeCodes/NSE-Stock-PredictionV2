@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-11-14T20:27:35",
+  "stocks": {
+    "RELIANCE": {
+      "best_model": "Linear_Regression",
+      "models": {
+        "Random_Forest": {
+          "train": {
+            "r2": 0.9991673707114604,
+            "mae": 2.1246273242127955,
+            "rmse": 2.8959060424612137
+          },
+          "test": {
+            "r2": 0.9712359041700412,
+            "mae": 6.590296218554182,
+            "rmse": 9.087600468851065
+          }
+        },
+        "Linear_Regression": {
+          "train": {
+            "r2": 0.9999079508305418,
+            "mae": 0.6729743681687751,
+            "rmse": 0.9628720104590515
+          },
+          "test": {
+            "r2": 0.9990424942434049,
+            "mae": 0.9858281921047644,
+            "rmse": 1.6580383010265431
+          }
+        }
+      },
+      "feature_cols": [
+        "Open",
+        "High",
+        "Low",
+        "Volume",
+        "Dividends",
+        "Stock Splits",
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_5_ratio",
+        "MA_20_ratio",
+        "Return_1d",
+        "Return_5d",
+        "Volatility_10d",
+        "High_Low_ratio",
+        "Close_Open_ratio",
+        "Volume_MA_10",
+        "Volume_ratio",
+        "Close_lag_1",
+        "Close_lag_2",
+        "Close_lag_3"
+      ],
+      "n_raw": 495,
+      "n_model_rows": 476,
+      "n_train": 380,
+      "n_test": 96,
+      "split_date": "2026-06-29",
+      "data_start": "2024-11-13",
+      "data_end": "2026-11-13",
+      "data_fetched_at": "2026-11-14T20:27:33"
+    },
+    "TCS": {
+      "best_model": "Linear_Regression",
+      "models": {
+        "Random_Forest": {
+          "train": {
+            "r2": 0.9996795915580096,
+            "mae": 5.807943626267315,
+            "rmse": 8.48728609621947
+          },
+          "test": {
+            "r2": 0.9673632824774316,
+            "mae": 21.974795817238967,
+            "rmse": 28.591531365188228
+          }
+        },
+        "Linear_Regression": {
+          "train": {
+            "r2": 0.9998580318200638,
+            "mae": 3.783349856415772,
+            "rmse": 5.649530715785094
+          },
+          "test": {
+            "r2": 0.9942839478615872,
+            "mae": 8.264773826807621,
+            "rmse": 11.965539128609173
+          }
+        }
+      },
+      "feature_cols": [
+        "Open",
+        "High",
+        "Low",
+        "Volume",
+        "Dividends",
+        "Stock Splits",
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_5_ratio",
+        "MA_20_ratio",
+        "Return_1d",
+        "Return_5d",
+        "Volatility_10d",
+        "High_Low_ratio",
+        "Close_Open_ratio",
+        "Volume_MA_10",
+        "Volume_ratio",
+        "Close_lag_1",
+        "Close_lag_2",
+        "Close_lag_3"
+      ],
+      "n_raw": 495,
+      "n_model_rows": 476,
+      "n_train": 380,
+      "n_test": 96,
+      "split_date": "2026-06-29",
+      "data_start": "2024-11-13",
+      "data_end": "2026-11-13",
+      "data_fetched_at": "2026-11-14T20:27:33"
+    },
+    "HDFCBANK": {
+      "best_model": "Linear_Regression",
+      "models": {
+        "Random_Forest": {
+          "train": {
+            "r2": 0.9995922528304455,
+            "mae": 1.1767104799167643,
+            "rmse": 1.6270498251771315
+          },
+          "test": {
+            "r2": 0.8201577461454765,
+            "mae": 11.309517401099379,
+            "rmse": 17.025961532999784
+          }
+        },
+        "Linear_Regression": {
+          "train": {
+            "r2": 0.9999173470337585,
+            "mae": 0.538246790060016,
+            "rmse": 0.7325454869468068
+          },
+          "test": {
+            "r2": 0.9985982359657595,
+            "mae": 1.0205814983215025,
+            "rmse": 1.5031531661277762
+          }
+        }
+      },
+      "feature_cols": [
+        "Open",
+        "High",
+        "Low",
+        "Volume",
+        "Dividends",
+        "Stock Splits",
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_5_ratio",
+        "MA_20_ratio",
+        "Return_1d",
+        "Return_5d",
+        "Volatility_10d",
+        "High_Low_ratio",
+        "Close_Open_ratio",
+        "Volume_MA_10",
+        "Volume_ratio",
+        "Close_lag_1",
+        "Close_lag_2",
+        "Close_lag_3"
+      ],
+      "n_raw": 495,
+      "n_model_rows": 476,
+      "n_train": 380,
+      "n_test": 96,
+      "split_date": "2026-06-29",
+      "data_start": "2024-11-13",
+      "data_end": "2026-11-13",
+      "data_fetched_at": "2026-11-14T20:27:34"
+    },
+    "INFY": {
+      "best_model": "Linear_Regression",
+      "models": {
+        "Random_Forest": {
+          "train": {
+            "r2": 0.9996266025668927,
+            "mae": 2.7427326476810348,
+            "rmse": 3.6671733085444966
+          },
+          "test": {
+            "r2": 0.8421179223033852,
+            "mae": 16.112228526489865,
+            "rmse": 23.681077677231112
+          }
+        },
+        "Linear_Regression": {
+          "train": {
+            "r2": 0.9998500615527384,
+            "mae": 1.5786079578026058,
+            "rmse": 2.3238188778563695
+          },
+          "test": {
+            "r2": 0.9938156279426977,
+            "mae": 3.3644400039926516,
+            "rmse": 4.686869383133294
+          }
+        }
+      },
+      "feature_cols": [
+        "Open",
+        "High",
+        "Low",
+        "Volume",
+        "Dividends",
+        "Stock Splits",
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_5_ratio",
+        "MA_20_ratio",
+        "Return_1d",
+        "Return_5d",
+        "Volatility_10d",
+        "High_Low_ratio",
+        "Close_Open_ratio",
+        "Volume_MA_10",
+        "Volume_ratio",
+        "Close_lag_1",
+        "Close_lag_2",
+        "Close_lag_3"
+      ],
+      "n_raw": 495,
+      "n_model_rows": 476,
+      "n_train": 380,
+      "n_test": 96,
+      "split_date": "2026-06-29",
+      "data_start": "2024-11-13",
+      "data_end": "2026-11-13",
+      "data_fetched_at": "2026-11-14T20:27:35"
+    },
+    "ITC": {
+      "best_model": "Linear_Regression",
+      "models": {
+        "Random_Forest": {
+          "train": {
+            "r2": 0.9996831427436893,
+            "mae": 0.5257293263514254,
+            "rmse": 0.8015321109009524
+          },
+          "test": {
+            "r2": -0.5554309297067717,
+            "mae": 9.935704469468867,
+            "rmse": 12.843496079571239
+          }
+        },
+        "Linear_Regression": {
+          "train": {
+            "r2": 0.9998975495722426,
+            "mae": 0.32272328922965876,
+            "rmse": 0.45577026205467974
+          },
+          "test": {
+            "r2": 0.9909016304389372,
+            "mae": 0.6802738596005398,
+            "rmse": 0.9822899003407313
+          }
+        }
+      },
+      "feature_cols": [
+        "Open",
+        "High",
+        "Low",
+        "Volume",
+        "Dividends",
+        "Stock Splits",
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_5_ratio",
+        "MA_20_ratio",
+        "Return_1d",
+        "Return_5d",
+        "Volatility_10d",
+        "High_Low_ratio",
+        "Close_Open_ratio",
+        "Volume_MA_10",
+        "Volume_ratio",
+        "Close_lag_1",
+        "Close_lag_2",
+        "Close_lag_3"
+      ],
+      "n_raw": 495,
+      "n_model_rows": 476,
+      "n_train": 380,
+      "n_test": 96,
+      "split_date": "2026-06-29",
+      "data_start": "2024-11-13",
+      "data_end": "2026-11-13",
+      "data_fetched_at": "2026-11-14T20:27:35"
+    }
+  }
+}
